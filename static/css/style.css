@@ -1,0 +1,14 @@
+form input[type="radio"]{
+	float: left;
+	clear: none;
+}
+
+form label {
+	float: left;
+	clear:none;
+	display:block;
+}
+form div {
+	display: block;
+	width: 100%;
+}

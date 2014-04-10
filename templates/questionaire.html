@@ -3,10 +3,27 @@
     <head>
         <meta charset="utf-8">
         <title>Questionaire</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     </head>
     <body>
         <h1>Welcome to the questionaire!</h1>
         <p>This quiz will match you with the phone of your dreams.</p>
         <p>Start the quiz below.</p>
+    
+        <h1>iOS vs Android</h1>
+        <form class="form" title="Operating System">
+            <input type="radio" name="OS" value="iOS">iOS<br>
+            <input type="radio" name="OS" value="Android">Android<br>
+        </form>
+
+        <h1>Screen Size</h1>
+        <form class="form" title="Screen Size">
+            <input type="radio" name="size_in" value="4.0-">4.0 inches or less<br>
+            <input type="radio" name="size_in" value="4.0-4.5">4.0-4.5 inches<br>
+            <input type="radio" name="size_in" value="4.5-5.0">4.5-5.0 inches<br>
+            <input type="radio" name="size_in" value="5.0-5.5">5.0-5.5 inches<br>
+            <input type="radio" name="size_in" value="5.0+">5.0+ inches<br>
+        </form>
+
     </body>
 </html>
