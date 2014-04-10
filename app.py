@@ -11,10 +11,10 @@ data = json.loads(json_data)
 def home():
 	return render_template("home.html")
 
-@app.route("/search", methods=["GET","POST"])
-def search():
-	if request.method == "POST":
-		return render_template("results.html", phone=request.form['user_search'])
+@app.route("/questionaire", methods=["GET","POST"])
+def questionaire():
+	if request.method == "GET":
+		return render_template("questionaire.html")
 	else:
 		return render_template("home.html")
 
