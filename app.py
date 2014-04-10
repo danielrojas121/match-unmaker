@@ -6,7 +6,6 @@ app.config["DEBUG"] = True  # Only include this while you are testing your app
 
 json_data = open('phones.json').read()
 data = json.loads(json_data)
-json_data.close()
 
 @app.route("/")
 def home():
