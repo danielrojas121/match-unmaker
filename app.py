@@ -16,7 +16,7 @@ def questionaire():
 	if request.method == "GET":
 		return render_template("questionaire.html")
 	else:
-		return render_template("home.html")
+		return render_template("results.html")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
