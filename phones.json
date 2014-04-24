@@ -1,202 +1,194 @@
-	[
-		{
-			"_id": 1,
-			"manufacturer": "Apple",
-			"name": "iPhone 5s",
-			"OS": "iOS",
-			"dimensions_in": {
-				"x": 2.31,
-				"y": 4.87,
-				"z": 0.3
-			},
-			"weight_g": 112,
-			"size_in": 4,
-			"resolution_px": {
-				"x": 640,
-				"y": 1136
-			},
-			"px_density": 326,
-			"camera_mp": 8,
-			"front_cam_mp": 1.2,
-			"chip": "Apple A7",
-			"memory_mb": 1024,
-			"storage_gb": 16,
-			"battery_mAh": 1570
-
+[
+	{
+		"_id": 1,
+		"manufacturer": "Apple",
+		"name": "iPhone 5s",
+		"OS": "iOS",
+		"dimensions_in": {
+			"x": 2.31,
+			"y": 4.87,
+			"z": 0.3
 		},
-		{
-			"_id": 2,
-			"manufacturer": "Samsung",
-			"name": "Galaxy S5",
-			"OS": "Android",
-			"dimensions_in": {
-				"x": 2.85,
-				"y": 5.59,
-				"z": 0.32
-			},
-			"weight_g": 145,
-			"size_in": 5.1,
-			"resolution_px": {
-				"x": 1080,
-				"y": 1920
-			},
-			"px_density": 432,
-			"camera_mp": 16,
-			"front_cam_mp": 2.1,
-			"chip": "Qualcomm Snapdragon 801",
-			"memory_mb": 2048,
-			"storage_gb": 16,
-			"battery_mAh": 2800
-
+		"weight_g": 112,
+		"size_in": 4,
+		"resolution_px": {
+			"x": 640,
+			"y": 1136
 		},
-		{
-			"_id": 3,
-			"manufacturer": "Samsung",
-			"name": "Note 3",
-			"OS": "Android",
-			"dimensions_in": {
-				"x": 3.12,
-				"y": 5.95,
-				"z": 0.33
-			},
-			"weight_g": 168,
-			"size_in": 5.7,
-			"resolution_px": {
-				"x": 1080,
-				"y": 1920
-			},
-			"px_density": 386,
-			"camera_mp": 13,
-			"front_cam_mp": 2,
-			"chip": "Qualcomm Snapdragon 800",
-			"memory_mb": 3072,
-			"storage_gb": 32,
-			"battery_mAh": 3200
-
+		"px_density": 326,
+		"camera_mp": 8,
+		"front_cam_mp": 1.2,
+		"chip": "Apple A7",
+		"memory_mb": 1024,
+		"storage_gb": 16,
+		"battery_mAh": 1570
 		},
-		{
-			"_id": 4,
-			"manufacturer": "HTC",
-			"name": "One (M8)",
-			"OS": "Android",
-			"dimensions_in": {
-				"x": 2.78,
-				"y": 5.76,
-				"z": 0.37
-			},
-			"weight_g": 160,
-			"size_in": 5.0,
-			"resolution_px": {
-				"x": 1080,
-				"y": 1920
-			},
-			"px_density": 441,
-			"camera_mp": 4,
-			"front_cam_mp": 5,
-			"chip": "Qualcomm Snapdragon 801",
-			"memory_mb": 2048,
-			"storage_gb": 16,
-			"battery_mAh": 2600
-
+	{
+		"_id": 2,
+		"manufacturer": "Samsung",
+		"name": "Galaxy S5",
+		"OS": "Android",
+		"dimensions_in": {
+			"x": 2.85,
+			"y": 5.59,
+			"z": 0.32
 		},
-		{
-			"_id": 5,
-			"manufacturer": "Sony",
-			"name": "Xperia Z2",
-			"OS": "Android",
-			"dimensions_in": {
-				"x": 2.89,
-				"y": 5.78,
-				"z": 0.32
-			},
-			"weight_g": 163,
-			"size_in": 5.2,
-			"resolution_px": {
-				"x": 1080,
-				"y": 1920
-			},
-			"px_density": 424,
-			"camera_mp": 20.7,
-			"front_cam_mp": 2.2,
-			"chip": "Qualcomm Snapdragon 801",
-			"memory_mb": 3072,
-			"storage_gb": 16,
-			"battery_mAh": 3200
-
+		"weight_g": 145,
+		"size_in": 5.1,
+		"resolution_px": {
+			"x": 1080,
+			"y": 1920
 		},
-		{
-			"_id": 6,
-			"manufacturer": "Motorola",
-			"name": "Moto X",
-			"OS": "Android",
-			"dimensions_in": {
-				"x": 2.57,
-				"y": 5.09,
-				"z": 0.41
-			},
-			"weight_g": 130,
-			"size_in": 4.7,
-			"resolution_px": {
-				"x": 720,
-				"y": 1280
-			},
-			"px_density": 316,
-			"camera_mp": 10,
-			"front_cam_mp": 2,
-			"chip": "Qualcomm Snapdragon S4 Pro",
-			"memory_mb": 2048,
-			"storage_gb": 16,
-			"battery_mAh": 2200
-
+		"px_density": 432,
+		"camera_mp": 16,
+		"front_cam_mp": 2.1,
+		"chip": "Qualcomm Snapdragon 801",
+		"memory_mb": 2048,
+		"storage_gb": 16,
+		"battery_mAh": 2800
 		},
-		{
-			"_id": 7,
-			"manufacturer": "Google",
-			"name": "Nexus 5",
-			"OS": "Android",
-			"dimensions_in": {
-				"x": 2.72,
-				"y": 5.43,
-				"z": 0.34
-			},
-			"weight_g": 130,
-			"size_in": 5.0,
-			"resolution_px": {
-				"x": 1080,
-				"y": 1920
-			},
-			"px_density": 445,
-			"camera_mp": 8,
-			"front_cam_mp": 1.3,
-			"chip": "Qualcomm Snapdragon 800",
-			"memory_mb": 2048,
-			"storage_gb": 16,
-			"battery_mAh": 2300
-
+	{
+		"_id": 3,
+		"manufacturer": "Samsung",
+		"name": "Note 3",
+		"OS": "Android",
+		"dimensions_in": {
+			"x": 3.12,
+			"y": 5.95,
+			"z": 0.33
 		},
-		{
-			"_id": 8,
-			"manufacturer": "LG",
-			"name": "G2",
-			"OS": "Android",
-			"dimensions_in": {
-				"x": 2.79,
-				"y": 5.45,
-				"z": 0.35
-			},
-			"weight_g": 143,
-			"size_in": 5.2,
-			"resolution_px": {
-				"x": 1080,
-				"y": 1920
-			},
-			"px_density": 423,
-			"camera_mp": 13,
-			"front_cam_mp": 2.1,
-			"chip": "Qualcomm Snapdragon 800",
-			"memory_mb": 2048,
-			"storage_gb": 32,
-			"battery_mAh": 3000
-
-		}
-	]
+		"weight_g": 168,
+		"size_in": 5.7,
+		"resolution_px": {
+			"x": 1080,
+			"y": 1920
+		},
+		"px_density": 386,
+		"camera_mp": 13,
+		"front_cam_mp": 2,
+		"chip": "Qualcomm Snapdragon 800",
+		"memory_mb": 3072,
+		"storage_gb": 32,
+		"battery_mAh": 3200
+		},
+	{
+		"_id": 4,
+		"manufacturer": "HTC",
+		"name": "One (M8)",
+		"OS": "Android",
+		"dimensions_in": {
+			"x": 2.78,
+			"y": 5.76,
+			"z": 0.37
+		},
+		"weight_g": 160,
+		"size_in": 5.0,
+		"resolution_px": {
+			"x": 1080,
+			"y": 1920
+		},
+		"px_density": 441,
+		"camera_mp": 4,
+		"front_cam_mp": 5,
+		"chip": "Qualcomm Snapdragon 801",
+		"memory_mb": 2048,
+		"storage_gb": 16,
+		"battery_mAh": 2600
+		},
+	{
+		"_id": 5,
+		"manufacturer": "Sony",
+		"name": "Xperia Z2",
+		"OS": "Android",
+		"dimensions_in": {
+			"x": 2.89,
+			"y": 5.78,
+			"z": 0.32
+		},
+		"weight_g": 163,
+		"size_in": 5.2,
+		"resolution_px": {
+			"x": 1080,
+			"y": 1920
+		},
+		"px_density": 424,
+		"camera_mp": 20.7,
+		"front_cam_mp": 2.2,
+		"chip": "Qualcomm Snapdragon 801",
+		"memory_mb": 3072,
+		"storage_gb": 16,
+		"battery_mAh": 3200
+		},
+	{
+		"_id": 6,
+		"manufacturer": "Motorola",
+		"name": "Moto X",
+		"OS": "Android",
+		"dimensions_in": {
+			"x": 2.57,
+			"y": 5.09,
+			"z": 0.41
+		},
+		"weight_g": 130,
+		"size_in": 4.7,
+		"resolution_px": {
+			"x": 720,
+			"y": 1280
+		},
+		"px_density": 316,
+		"camera_mp": 10,
+		"front_cam_mp": 2,
+		"chip": "Qualcomm Snapdragon S4 Pro",
+		"memory_mb": 2048,
+		"storage_gb": 16,
+		"battery_mAh": 2200
+		},
+	{
+		"_id": 7,
+		"manufacturer": "Google",
+		"name": "Nexus 5",
+		"OS": "Android",
+		"dimensions_in": {
+			"x": 2.72,
+			"y": 5.43,
+			"z": 0.34
+		},
+		"weight_g": 130,
+		"size_in": 5.0,
+		"resolution_px": {
+			"x": 1080,
+			"y": 1920
+		},
+		"px_density": 445,
+		"camera_mp": 8,
+		"front_cam_mp": 1.3,
+		"chip": "Qualcomm Snapdragon 800",
+		"memory_mb": 2048,
+		"storage_gb": 16,
+		"battery_mAh": 2300
+		},
+	{
+		"_id": 8,
+		"manufacturer": "LG",
+		"name": "G2",
+		"OS": "Android",
+		"dimensions_in": {
+			"x": 2.79,
+			"y": 5.45,
+			"z": 0.35
+		},
+		"weight_g": 143,
+		"size_in": 5.2,
+		"resolution_px": {
+			"x": 1080,
+			"y": 1920
+		},
+		"px_density": 423,
+		"camera_mp": 13,
+		"front_cam_mp": 2.1,
+		"chip": "Qualcomm Snapdragon 800",
+		"memory_mb": 2048,
+		"storage_gb": 32,
+		"battery_mAh": 3000
+	}
+]
