@@ -11,12 +11,19 @@ data = json.loads(json_data)
 def home():
 	return render_template("home.html")
 
+def filter_phones(size, os, megapixels):
+	return json_data
+
 @app.route("/questionaire", methods=["GET","POST"])
 def questionaire():
 	if request.method == "GET":
 		return render_template("questionaire.html")
 	else:
-		return render_template("results.html")
+		size = float(request.form['size_in'])
+		os = request.form['OS']
+        megapixels = float(request.form['camera_mp'])
+		phones = filter_phones(size, os, megapixels)
+		return render_template("results.html", phones=phones)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
