@@ -21,7 +21,7 @@ def questionaire():
 	else:
 		size = float(request.form['size_in'])
 		os = request.form['OS']
-        megapixels = float(request.form['camera_mp'])
+		megapixels = float(request.form['camera_mp'])
 		phones = filter_phones(size, os, megapixels)
 		return render_template("results.html", phones=phones)
 
