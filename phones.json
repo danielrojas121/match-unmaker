@@ -28,7 +28,7 @@
 			"_id": 2,
 			"manufacturer": "Samsung",
 			"name": "Galaxy S5",
-			"OS": "Android 4.4.2",
+			"OS": "Android",
 			"dimensions_in": {
 				"x": 2.85,
 				"y": 5.59,
@@ -53,7 +53,7 @@
 			"_id": 3,
 			"manufacturer": "Samsung",
 			"name": "Note 3",
-			"OS": "Android 4.4",
+			"OS": "Android",
 			"dimensions_in": {
 				"x": 3.12,
 				"y": 5.95,
@@ -78,7 +78,7 @@
 			"_id": 4,
 			"manufacturer": "HTC",
 			"name": "One (M8)",
-			"OS": "Android 4.4",
+			"OS": "Android",
 			"dimensions_in": {
 				"x": 2.78,
 				"y": 5.76,
@@ -103,7 +103,7 @@
 			"_id": 5,
 			"manufacturer": "Sony",
 			"name": "Xperia Z2",
-			"OS": "Android 4.4",
+			"OS": "Android",
 			"dimensions_in": {
 				"x": 2.89,
 				"y": 5.78,
@@ -128,7 +128,7 @@
 			"_id": 6,
 			"manufacturer": "Motorola",
 			"name": "Moto X",
-			"OS": "Android 4.4.2",
+			"OS": "Android",
 			"dimensions_in": {
 				"x": 2.57,
 				"y": 5.09,
@@ -153,7 +153,7 @@
 			"_id": 7,
 			"manufacturer": "Google",
 			"name": "Nexus 5",
-			"OS": "Android 4.4.2",
+			"OS": "Android",
 			"dimensions_in": {
 				"x": 2.72,
 				"y": 5.43,
@@ -178,7 +178,7 @@
 			"_id": 8,
 			"manufacturer": "LG",
 			"name": "G2",
-			"OS": "Android 4.4.2",
+			"OS": "Android",
 			"dimensions_in": {
 				"x": 2.79,
 				"y": 5.45,
