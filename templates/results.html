@@ -8,6 +8,7 @@
         <h1>These are your results!</h1>
         {% for phone in phones %}
         	<p>{{phone.OS}} {{phone.name}}</p>
+        	<p><img src={{phone.image}}></p>
         {% endfor %}
     </body>
 </html>

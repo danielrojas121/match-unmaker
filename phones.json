@@ -22,7 +22,7 @@
 		"memory_mb": 1024,
 		"storage_gb": 16,
 		"battery_mAh": 1570,
-		"image": "static/images/iPhone5s"
+		"image": "/static/images/iPhone5s.jpg"
 		},
 	{
 		"_id": 2,
@@ -47,7 +47,7 @@
 		"memory_mb": 2048,
 		"storage_gb": 16,
 		"battery_mAh": 2800,
-		"image": "static/images/GalaxyS5"
+		"image": "static/images/GalaxyS5.jpg"
 		},
 	{
 		"_id": 3,
@@ -72,7 +72,7 @@
 		"memory_mb": 3072,
 		"storage_gb": 32,
 		"battery_mAh": 3200,
-		"image": "static/images/GalaxyNote3"
+		"image": "static/images/GalaxyNote3.jpg"
 		},
 	{
 		"_id": 4,
@@ -97,7 +97,7 @@
 		"memory_mb": 2048,
 		"storage_gb": 16,
 		"battery_mAh": 2600,
-		"image": "static/images/htcOneM8"
+		"image": "static/images/htcOneM8.jpg"
 		},
 	{
 		"_id": 5,
@@ -122,7 +122,7 @@
 		"memory_mb": 3072,
 		"storage_gb": 16,
 		"battery_mAh": 3200,
-		"image": "static/images/XperiaZ2"
+		"image": "static/images/XperiaZ2.jpg"
 		},
 	{
 		"_id": 6,
@@ -147,7 +147,7 @@
 		"memory_mb": 2048,
 		"storage_gb": 16,
 		"battery_mAh": 2200,
-		"image": "static/images/MotoX"
+		"image": "static/images/MotoX.jpg"
 		},
 	{
 		"_id": 7,
@@ -172,7 +172,7 @@
 		"memory_mb": 2048,
 		"storage_gb": 16,
 		"battery_mAh": 2300,
-		"image": "static/images/Nexus5"
+		"image": "static/images/Nexus5.jpg"
 		},
 	{
 		"_id": 8,
@@ -197,6 +197,6 @@
 		"memory_mb": 2048,
 		"storage_gb": 32,
 		"battery_mAh": 3000,
-		"image": "static/images/LGG2"
+		"image": "static/images/LGG2.jpg"
 	}
 ]
