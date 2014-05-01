@@ -11,18 +11,20 @@ data = json.loads(json_data)
 def home():
 	return render_template("home.html")
 
-def filter_phones(os, size, megapixels):
+def filter_phones(os, size, battery_size):
 	filt_phones1 = []
 	for phone in data:
 		if phone["OS"] == os:
 			filt_phones1.append(phone)
 	filt_phones2 = []
 	for phone in filt_phones1:
-		if phone["size_in"] == size:
+		json_size = phone["size_in"]
+		if json_size <= size and json_size > size - 0.5:
 			filt_phones2.append(phone)
 	filt_phones3 = []
-	for phone in filt_phones3:
-		if phone["camera_mp"] == megapixels:
+	for phone in filt_phones2:
+		battery_size = phone["battery_mAh"]
+		if battery_size < size and battery_size >= size - 400:
 			filt_phones3.append(phone)
 	return filt_phones2
 
@@ -33,8 +35,8 @@ def questionaire():
 	else:
 		size = float(request.form['size_in'])
 		os = request.form['OS']
-		megapixels = float(request.form['camera_mp'])
-		phones = filter_phones(os, size, megapixels)
+		battery_size = int(request.form['battery_size'])
+		phones = filter_phones(os, size, battery_size)
 		return render_template("results.html", phones=phones)
 
 if __name__ == "__main__":

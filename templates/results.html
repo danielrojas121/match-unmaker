@@ -6,6 +6,8 @@
     </head>
     <body>
         <h1>These are your results!</h1>
-        {{phones}}
+        {% for phone in phones %}
+        	<p>{{phone.OS}} {{phone.name}}</p>
+        {% endfor %}
     </body>
 </html>
